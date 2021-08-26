@@ -1,0 +1,114 @@
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59338)
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59340)
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 22, in <module>
+    hash = hashlib.sha256(str(logopass['login']) + str(logopass['password'])).hexdigest()
+TypeError: Unicode-objects must be encoded before hashing
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59342)
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 21, in <module>
+    logopass = logopass.decode("utf8")
+AttributeError: 'dict' object has no attribute 'decode'
+Fail to import moviepy. Need only for Video upload.
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 10, in <module>
+    s.bind((HOST, PORT))
+OSError: [Errno 98] Address already in use
+Fail to import moviepy. Need only for Video upload.
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 10, in <module>
+    s.bind((HOST, PORT))
+OSError: [Errno 98] Address already in use
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59346)
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 20, in <module>
+    logopass = logopass.decode("utf8")
+NameError: name 'logopass' is not defined
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59348)
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 23, in <module>
+    hash = hashlib.sha256(str(logopass['login']) + str(logopass['password'])).hexdigest()
+TypeError: Unicode-objects must be encoded before hashing
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59350)
+Request return 405 error!
+{'message': '', 'status': 'fail'}
+Request return 404 error!
+Login success!
+
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 27, in <module>
+    conn.sendall(hash)
+TypeError: a bytes-like object is required, not 'str'
+Fail to import moviepy. Need only for Video upload.
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 10, in <module>
+    s.bind((HOST, PORT))
+OSError: [Errno 98] Address already in use
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59366)
+Request return 405 error!
+{'message': '', 'status': 'fail'}
+Request return 404 error!
+Login success!
+
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 34, in <module>
+    conn.sendall('no data recieved')
+TypeError: a bytes-like object is required, not 'str'
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59384)
+Request return 405 error!
+{'message': '', 'status': 'fail'}
+Request return 404 error!
+Login success!
+
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 34, in <module>
+    conn.sendall('no data recieved')
+TypeError: a bytes-like object is required, not 'str'
+Fail to import moviepy. Need only for Video upload.
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 10, in <module>
+    s.bind((HOST, PORT))
+OSError: [Errno 98] Address already in use
+Fail to import moviepy. Need only for Video upload.
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 10, in <module>
+    s.bind((HOST, PORT))
+OSError: [Errno 98] Address already in use
+Fail to import moviepy. Need only for Video upload.
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 10, in <module>
+    s.bind((HOST, PORT))
+OSError: [Errno 98] Address already in use
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59402)
+Request return 405 error!
+{'message': '', 'status': 'fail'}
+Request return 404 error!
+Login success!
+
+Traceback (most recent call last):
+  File "/var/project/fstptproj/socket_api/server.py", line 34, in <module>
+    conn.sendall('no data recieved')
+TypeError: a bytes-like object is required, not 'str'
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59420)
+Request return 405 error!
+{'message': '', 'status': 'fail'}
+Request return 404 error!
+Login success!
+
+Fail to import moviepy. Need only for Video upload.
+Connected by ('127.0.0.1', 59440)
+Request return 405 error!
+{'message': '', 'status': 'fail'}
+Request return 404 error!
+Login success!
+
